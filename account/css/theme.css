@@ -343,7 +343,7 @@ section {
 
 .page-container {
     background: #e5e5e5;
-    padding-left: 300px;
+    padding-left: 250px;
 }
 
 @media (max-width: 991px) {
@@ -371,7 +371,7 @@ section {
 }
 
 .main-content {
-    padding-top: 116px;
+    padding-top: 90px;
     min-height: 100vh;
 }
 
@@ -3255,6 +3255,7 @@ noti__item .notifi__item .img-cir i {
     display: inline-block;
     vertical-align: top;
     margin-right: 15px;
+    margin-top: -20px;
 }
 
 .overview-box .icon i {
@@ -3282,16 +3283,8 @@ noti__item .notifi__item .img-cir i {
     display: inline-block;
 }
 
-.overview-box .text h2 {
-    font-weight: 300;
-    color: #fff;
-    font-size: 36px;
-    line-height: 1;
-    margin-bottom: 5px;
-}
-
 .overview-box .text span {
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
 }
 
