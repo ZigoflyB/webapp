@@ -3255,7 +3255,7 @@ noti__item .notifi__item .img-cir i {
     display: inline-block;
     vertical-align: top;
     margin-right: 15px;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 
 .overview-box .icon i {
@@ -3280,6 +3280,8 @@ noti__item .notifi__item .img-cir i {
 
 .overview-box .text {
     font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 10px;
     display: inline-block;
 }
 
