@@ -10,10 +10,7 @@
 .tab-card {
   border:1px solid #eee;
 }
-
-.tab-card-header {
-  background:none;
-}
+ 
 /* Default mode */
 .tab-card-header > .nav-tabs {
   border: none;
@@ -40,7 +37,4 @@
 
 .tab-card-header > .tab-content {
   padding-bottom: 0;
-}
-.card-header-tabs{
-  background-color:  #f2f2f2;
-}
+} 
