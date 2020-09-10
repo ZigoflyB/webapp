@@ -2659,6 +2659,16 @@ noti__item .notifi__item .img-cir i {
     right: 0;
 }
 
+.show-my-sidebar {
+    left: 0px;
+    display: block!important;
+    z-index: 1000;
+}
+
+.menu-sidebar {
+    transition: all 0.5s ease 0s;
+}
+
 .header-desktop3 {
     background: #393939;
     display: -webkit-box;
