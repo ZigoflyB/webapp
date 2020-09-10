@@ -41,3 +41,6 @@
 .tab-card-header > .tab-content {
   padding-bottom: 0;
 }
+.card-header-tabs{
+  background-color:  #f2f2f2;
+}
