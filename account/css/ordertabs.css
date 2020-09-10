@@ -44,3 +44,9 @@
 .card-header-tabs{
   background-color:  #fff;
 }
+.bbb_adv_col:hover
+{ 
+     box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .1s ease-in;
+    cursor: pointer;
+}
