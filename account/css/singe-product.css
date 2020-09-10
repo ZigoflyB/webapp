@@ -200,8 +200,8 @@ img {
 @-webkit-keyframes opacity {
     0% {
         opacity: 0;
-        -webkit-transform: scale(3);
-        transform: scale(3);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
     }
     100% {
         opacity: 1;
@@ -213,8 +213,8 @@ img {
 @keyframes opacity {
     0% {
         opacity: 0;
-        -webkit-transform: scale(3);
-        transform: scale(3);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
     }
     100% {
         opacity: 1;
