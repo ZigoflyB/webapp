@@ -284,24 +284,187 @@
                                     <a class="breadcrumb-item" href="#">Customer Dashboard</a>
                                 </nav>
                             </div>
-                            <div class="col-md-12">
-                                <div class="overview-wrap">
-                                    <p>Welcome, Basil &nbsp;<i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</p>
+                            
+                        </div>
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         <div class="row  m-b-30"> 
+                            <div class="col-lg-12">
+                                <div class="au-card recent-report">
+                                    <div class="au-card-inner">
+                                        <h4 class="title-2 m-b-40">Order Status</h4>
+                                        <p>Welcome, below's your order status.</p>
+
+
+
+                                        <div class="table-responsive">
+  <!--Table-->
+  <table class="table table-striped">
+
+    <!--Table head-->
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Order#</th>
+        <th>Date Created</th>
+        <th>Product Name(s)</th>
+        <th>Quantity</th>
+        <th>Current Status</th>
+        <th>Payment Method</th>
+      </tr>
+    </thead>
+    <!--Table head-->
+
+    <!--Table body-->
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>23132154</td>
+        <td>22/08/2019</td>
+        <td>Lightweight V380 1080P HD Night Vision Network Camera Wifi Mini</td>
+        <td>12</td>
+        <td><a href="javascript: void(0);" onClick="toggle('q1')">
+            more
+            </a>
+            <div id="q1" style="display:none;">
+
+            <p>10/09/2019 15:22:06
+
+            Your item has been delivered</p>
+            <p>23/08/2019 13:07:50
+
+            Your item has been fullfilled, its shipping is in progress</p>
+            <p>22/08/2019 13:51:30
+
+            Your item is waiting for fullfilment</p>
+            <p>22/08/2019 13:51:29
+
+            Your order is pending confirmation</p>
+            <p>22/08/2019 13:51:29
+
+            Your order is being confirmed</p>
+            <p>22/08/2019 13:48:33
+
+            Your order payment is processing</p>
+            </div> </td>
+        <td>Card</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>46374354</td>
+        <td>22/06/2020</td>
+        <td>HDMI to HDMI Cable 10M - Black</td>
+        <td>2</td>
+        <td><a href="javascript: void(0);" onClick="toggle('q11')">
+            more
+            </a>
+            <div id="q11" style="display:none;">
+            <p>10/09/2019 15:22:06
+
+            Your item has been delivered</p>
+            <p>23/08/2019 13:07:50
+
+            Your item has been fullfilled, its shipping is in progress</p>
+            <p>22/08/2019 13:51:30
+
+            Your item is waiting for fullfilment</p>
+            <p>22/08/2019 13:51:29
+
+            Your order is pending confirmation</p>
+            <p>22/08/2019 13:51:29
+
+            Your order is being confirmed</p>
+            <p>22/08/2019 13:48:33
+
+            Your order payment is processing</p>
+            </div></td>
+        <td>MPesa</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>76763543</td>
+        <td>22/08/2020</td>
+        <td>EVGA GeForce GTX 1050 Ti SC GAMING, 4GB GDDR5, DX12 OSD </td>
+        <td>2</td>
+        <td><a href="javascript: void(0);" onClick="toggle('q12')">
+            more
+            </a>
+            <div id="q12" style="display:none;">
+            <p>10/09/2019 15:22:06
+
+            Your item has been delivered</p>
+            <p>23/08/2019 13:07:50
+
+            Your item has been fullfilled, its shipping is in progress</p>
+            <p>22/08/2019 13:51:30
+
+            Your item is waiting for fullfilment</p>
+            <p>22/08/2019 13:51:29
+
+            Your order is pending confirmation</p>
+            <p>22/08/2019 13:51:29
+
+            Your order is being confirmed</p>
+            <p>22/08/2019 13:48:33
+
+            Your order payment is processing</p>
+            </div></td>
+        <td>MPesa</td>
+      </tr>
+    </tbody>
+    <!--Table body-->
+  </table>
+  <!--Table-->
+</div>
+
+
+
+
+
+ 
+
+
+                                        <div class="container">
+                                          <div class="row">
+                                            <div class="col-9">
+                                              
+                                            </div>
+                                          </div>
+                                        </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row m-t-25">
-                            
-                            
-                            
-                            
-                        </div>
-                        
+
+
+
+
+
+
+
+
+
+
+
                         
                         <!--------------------------------------------------->
 
 
-                        <div class="row">
+                        <div class="row d-none">
                             <div class="offset-md-8  offset-sm-2 col-sm-10 col-lg-4">
                                 <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
                                     <div class="au-card-title" style="background-image:url('images/bg-title-02.jpg');">
@@ -484,7 +647,13 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-
+<script type="text/javascript">
+function toggle(obj) {
+          var obj=document.getElementById(obj);
+          if (obj.style.display == "block") obj.style.display = "none";
+          else obj.style.display = "block";
+}
+</script>
 </body>
 
 </html>
