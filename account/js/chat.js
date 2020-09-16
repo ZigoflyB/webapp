@@ -1,16 +1,3 @@
-$('.displayChatbox').on('click', function() {
-    $('.showChat').removeClass('slideOutRight');
-    $('.showChat').addClass('animated slideInRight');
-    $('.showChat').css('display', 'block')
-});
-
-//close
-$('.back_friendlist').on('click', function() {
-
-    $('.showChat').toggleClass('slideInRight');
-    $('.showChat').toggleClass('slideOutRight');
-});
-
 let sender, recipient, profile, username, myInterval = '';
 //    user on click
 $('.btn-chat').on('click', function() {
@@ -50,6 +37,7 @@ $('.btn-chat').on('click', function() {
     $('.showChat_inner').css('display', 'block');
     // scrollChat()
     $('#chat-message').focus();
+    $('body').css('overflow-y', 'hidden');
     // console.log(sender)
     // myInterval = setInterval(function() {
     //     fetchNewMessages(sender, recipient)
