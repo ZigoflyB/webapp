@@ -42,7 +42,7 @@ $('.btn-chat').on('click', function() {
     $('.showChat_inner').css('display', 'block');
     // scrollChat()
     $('#chat-message').focus();
-    $('body').css('overflow-y', 'hidden');
+    $('body:not(.main-friend-chat)').css('overflow-y', 'hidden');
     // console.log(sender)
     // myInterval = setInterval(function() {
     //     fetchNewMessages(sender, recipient)
@@ -52,6 +52,7 @@ $('.btn-chat').on('click', function() {
 $('.back_chatBox').on('click', function() {
     $('.showChat_inner').toggleClass('slideInRight');
     $('.showChat_inner').toggleClass('slideOutRight');
+    $('body').css('overflow-y', 'auto');
     // clearInterval(myInterval);
 });
 
