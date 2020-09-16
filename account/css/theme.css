@@ -66,6 +66,16 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 
 
 /* ----- Normalize ----- */
+@media screen and (max-width: 600px) {
+  .slide {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
 
 * {
     margin: 0;
