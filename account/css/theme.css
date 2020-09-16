@@ -67,15 +67,21 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 
 /* ----- Normalize ----- */
 
-@media screen and (max-width: 600px) {
-    .slide {
-        visibility: hidden;
-        clear: both;
-        float: left;
-        margin: 10px auto 5px 20px;
-        width: 28%;
-        display: none;
-    }
+.box {
+    border: solid 1.5px #9e9d9d;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.carousel-item img {
+    height: auto;
+    height: 250px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 * {
