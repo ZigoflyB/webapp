@@ -1,4 +1,9 @@
 let sender, recipient, profile, username, myInterval = '';
+$('.live-chat').on('click', function(e) {
+    e.preventDefault();
+    $('.btn-chat').trigger('click');
+})
+
 //    user on click
 $('.btn-chat').on('click', function() {
     // username = $(this).data('username');
