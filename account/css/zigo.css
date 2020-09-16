@@ -1,4 +1,5 @@
 /** POPULAR PRODUCT CATEGORY/GROUP ON THE USER DASHBOARD **/
+
 .product-groups {
     width: 100%;
     padding-top: 80px;
@@ -58,30 +59,24 @@
     max-width: 100%
 }
 
-
-.product-group:hover
-{ 
-     box-shadow: 1px 8px 20px grey;
-    -webkit-transition:  box-shadow .1s ease-in;
+.product-group:hover {
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition: box-shadow .1s ease-in;
     cursor: pointer;
 }
 
-
-
 @media (max-width: 991px) {
-    .product-group-col{
+    .product-group-col {
         padding-bottom: 10px;
     }
-     
 }
- 
 
 @media (min-width: 992px) and (max-width: 1133px) {
-     
-    .product-group-text{
+    .product-group-text {
         display: none;
         margin-top: 5px;
         font-size: 10px;
     }
-
 }
+
+@media (max-width: 576px) {}
