@@ -76,6 +76,10 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
     display: none;
   }
 }
+.box{
+     border: solid 1.5px #9e9d9d;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1)
+}
 .center {
   display: block;
   margin-left: auto;
