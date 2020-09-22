@@ -32,6 +32,10 @@
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
+    <link href="css/orderprogress.css" rel="stylesheet" media="all">
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
 
 </head>
 
@@ -286,39 +290,80 @@
                             </div>
                             
                         </div>
-                       
+                       <hr>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-                         <div class="row  m-b-30"> 
+                       <div class="row  m-b-30"> 
                             <div class="col-lg-12">
                                 <div class="au-card recent-report">
                                     <div class="au-card-inner">
-                                        <h4 class="title-2 m-b-40">Order Status</h4>
-                                        <p>Welcome Basil, below's your order status.</p>
+                                        <p>Welcome Basil, Track your orders below.</p>
 
                                         <hr>
 
-                                        <div class="table-responsive">
-  <!--Table-->
-  <table class="table table-striped">
+
+                                    <div class="">
+<div class="row">
+<div class="">
+    <center><form class="form-inline mr-auto">
+  <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-info btn-rounded btn-sm my-0" type="submit">Search</button>
+</form></center>
+</div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+<div class="row">
+     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+<ul class="events">
+  <li>
+    <time datetime="10:03">10:03</time> 
+    <span ><strong >Processing</strong>
+        
+            <div class="progress-bar bg-success status-active" role="progressbar" style=""  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Done</div>
+
+        
+    </span></li>
+  <li>
+    <time datetime="10:03">10:03</time> 
+    <span><strong>Fulfilled</strong> 
+            <div class="progress-bar bg-warning status-active" role="progressbar" style=""  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Waiting</div>
+    </span></li>
+   <li>
+    <time datetime="10:03">10:03</time> 
+    <span><strong>Shipping</strong>
+             <div class="progress-bar bg-info  status-active" role="progressbar" style=""  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">------</div>
+    </span></li>
+  <li>
+    <time datetime="10:03">10:03</time> 
+    <span><strong>Shipped</strong>
+             <div class="progress-bar bg-info  status-active" role="progressbar" style=""  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">------</div>
+    </span></li>
+<li>
+    <time datetime="10:03">10:03</time> 
+    <span><strong>Delivered</strong>
+             <div class="progress-bar bg-info  status-active" role="progressbar" style=""  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">------</div>
+    </span></li>
+</ul>
+
+ </div>
+
+
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 table-responsive">
+    <table class="table table-striped">
 
     <!--Table head-->
     <thead bgcolor="#e8e8e8">
       <tr>
-        <th>#</th>
         <th>Order#</th>
         <th>Date Created</th>
         <th>Product Name(s)</th>
@@ -332,90 +377,15 @@
     <!--Table body-->
     <tbody>
       <tr>
-        <th scope="row">1</th>
         <td>23132154</td>
         <td>22/08/2019</td>
         <td>Lightweight V380 1080P HD Night Vision Network Camera Wifi Mini</td>
         <td>12</td>
-        <td> <span class="badge badge-success">Delivered</span><a href="javascript: void(0);" onClick="toggle('q1')">
-           See Details
-            </a>
-            <div id="q1" style="display:none;">
-
-            <p><strong> 10/09/2019 15:22:06: </strong>
-
-            Your item has been delivered</p>
-            <p><strong>23/08/2019 13:07:50: </strong>
-
-            Your item has been fullfilled, its shipping is in progress</p>
-            <p><strong>22/08/2019 13:51:30: </strong> 
-
-            Your item is waiting for fullfilment</p>
-            <p><strong>22/08/2019 13:51:29: </strong>
-
-            Your order is pending confirmation</p>
-            <p><strong>22/08/2019 13:51:29: </strong>
-
-            Your order is being confirmed</p>
-            <p><strong>22/08/2019 13:48:33: </strong>
-
-            Your order payment is processing</p>
+        <td> <span class="badge badge-success">Fulfilment</span>
             </div> </td>
         <td>Card</td>
       </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>46374354</td>
-        <td>22/06/2020</td>
-        <td>HDMI to HDMI Cable 10M - Black</td>
-        <td>2</td>
-        <td> <span class="badge badge-warning">Shipping</span><a href="javascript: void(0);" onClick="toggle('q11')">
-           See Details
-            </a>
-            <div id="q11" style="display:none;">
-            <p><strong>23/08/2019 13:07:50: </strong>
-
-            Your item has been fullfilled, its shipping is in progress</p>
-            <p><strong>22/08/2019 13:51:30: </strong> 
-
-            Your item is waiting for fullfilment</p>
-            <p><strong>22/08/2019 13:51:29: </strong>
-
-            Your order is pending confirmation</p>
-            <p><strong>22/08/2019 13:51:29: </strong>
-
-            Your order is being confirmed</p>
-            <p><strong>22/08/2019 13:48:33: </strong>
-
-            Your order payment is processing</p>
-            </div></td>
-        <td>MPesa</td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>76763543</td>
-        <td>22/08/2020</td>
-        <td>EVGA GeForce GTX 1050 Ti SC GAMING, 4GB GDDR5, DX12 OSD </td>
-        <td>2</td>
-        <td> <span class="badge badge-primary">Waiting</span><a href="javascript: void(0);" onClick="toggle('q12')">
-           See Details
-            </a>
-            <div id="q12" style="display:none;">
-            <p><strong>22/08/2019 13:51:30: </strong> 
-
-            Your item is waiting for fullfilment</p>
-            <p><strong>22/08/2019 13:51:29: </strong>
-
-            Your order is pending confirmation</p>
-            <p><strong>22/08/2019 13:51:29: </strong>
-
-            Your order is being confirmed</p>
-            <p><strong>22/08/2019 13:48:33: </strong>
-
-            Your order payment is processing</p>
-            </div></td>
-        <td>MPesa</td>
-      </tr>
+     
     </tbody>
     <!--Table body-->
   </table>
@@ -423,13 +393,16 @@
 </div>
 
 
+</div>
+
+
+</div>
 
 
 
- 
 
 
-                                        <div class="container">
+                                            <div class="container">
                                           <div class="row">
                                             <div class="col-9">
                                               
@@ -440,14 +413,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
-
-
-
 
 
 
