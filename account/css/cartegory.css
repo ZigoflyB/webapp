@@ -1,0 +1,16 @@
+.product-group:hover
+{ 
+     box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .1s ease-in;
+    cursor: pointer;
+}
+
+.product-group img{
+	max-height: 100px !important;
+}
+
+.cartegory-text{
+	text-align: center;
+	font-size: 12px;
+
+}
