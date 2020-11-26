@@ -1,49 +1,41 @@
 /** POPULAR PRODUCT CATEGORY/GROUP ON THE USER DASHBOARD **/
-.product-group-links {
-    border: solid 1px #e8e8e8;
-    border-radius: 9px;
-    background-color: red;
-}
 .popular-card {
      -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    padding-right: 35px;
+    padding: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 25px;
     background: #fff;
-    margin-right: 15px;
     overflow: hidden;
     position:relative;
+    margin-left: 15px;
 
 }
 .popular-card1 {
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    padding-right: 35px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
     background: #fff;
     overflow: hidden;
 }
-.popular-card1-img{
-  display:inline-block;
-    position:absolute;
-    right:0;
-    top:0;
-}
+
 .popular-img{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .popular-title{
   display:block;
-  text-align: initial;
-  font-size: 12px;
+  text-align: center;
+  font-size: 10px;
   font-weight: bold;
 
 
@@ -87,8 +79,8 @@
     max-width: 110px;
   }
    .popular-card1{
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 10px;
     max-width: 310px;
   }
@@ -101,8 +93,8 @@
     max-width: 110px;
   }
   .popular-card1{
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
     max-width: 280px;
   }
