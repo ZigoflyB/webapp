@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Dashboard</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+    <link href="css/zigo.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+
+        <!-- MENU SIDEBAR-->
+
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="#">
+                    <img src="../images/white-logo-300x90.png" alt="Zigofly" />
+                </a>
+                <button class="hamburger hamburger--slider d-md-none ml-2" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner bg-light"></span>
+                    </span>
+                </button>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="active has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard
+                            </a>
+                            <li>
+                                <a href="address.html">
+                                    <i class="fas fa-map-marker-alt"></i>My Adress</a>
+                            </li>
+                            <li>
+                                <a href="orders.html">
+                                    <i class="fas fa-gift"></i>My Orders</a>
+                            </li>
+                            <li>
+                                <a href="shipments.html">
+                                    <i class="fas fa-plane"></i>My Shipments
+                                </a>
+                            </li>
+                            <li>
+                                <a href="quote.html">
+                                    <i class="fas fa-edit"></i>Get Quote
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="live-chat">
+                                    <i class="fa  fa-comments"></i>Live Chat
+                                </a>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+
+        <!-- chat div -->
+        <div class="showChat_inner">
+            <div class="media chat-inner-header row align-items-start mb-0 pb-3 pl-0 ml-0">
+                <a class="back_chatBox">
+                    <i class="zmdi zmdi-chevron-right"></i>
+                </a>
+                <div class="w-100 row">
+                    <a class="media-left photo-table col-4 pr-0" href="#!">
+                        <img class="media-object img-radius img-radius m-t-5" src="images/usflag.png" alt="Generic placeholder image">
+                    </a>
+                    <span class="col-8 user-name row align-items-center text-bold text-white" style="text-transform: capitalize">
+                                        Zigofly Support
+                                    </span>
+                </div>
+            </div>
+            <div class="main-friend-chat mt-2 pb-3">
+
+            </div>
+            <div class="chat-reply-box pr-1">
+                <form id="chat-form">
+                    <div class="right-icon-control">
+                        <div class="row">
+                            <div class="col-9 px-0 ml-2">
+                                <textarea name="message" id="chat-message" placeholder="Type message here..." rows="1"></textarea>
+                            </div>
+                            <div class="col-3 pr-1 row justify-content-center align-items-center">
+                                <button class="waves-effect waves-light btn-send py-0 mb-3" type="submit">
+                                        <i class="zmdi zmdi-mail-send text-primary fs-23"></i>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- end chat -->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30 pt-5">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header d-md-block d-none" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <button class="p-l-10" type="submit" aria-label="search">
+                                    <i class="zmdi zmdi-search fs-23 text-light pt-2"></i>
+                                </button>
+                            </form>
+                            <div class="header-button">
+                                <button class="hamburger hamburger--slider d-md-none" type="button">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner bg-light"></span>
+                                        </span>
+                                    </button>
+                                <div class="noti-wrap ml-auto mr-4">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications"></i>
+                                        <span class="quantity">3</span>
+                                        <div class="notifi-dropdown js-dropdown">
+                                            <div class="notifi__title">
+                                                <p>You have 3 Notifications</p>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c1 img-cir img-40">
+                                                    <i class="zmdi zmdi-email-open"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a email notification</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c2 img-cir img-40">
+                                                    <i class="zmdi zmdi-account-box"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Your account has been blocked</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c3 img-cir img-40">
+                                                    <i class="zmdi zmdi-file-text"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a new file</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__footer">
+                                                <a href="#">All notifications</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-shopping-cart"></i>
+                                        <span class="quantity">2</span>
+                                        <div class="mess-dropdown js-dropdown">
+                                            <!------------------------------------>
+                                            <div class="mess__title">
+                                                <p>You have 2 products in the cart</p>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/phone.png" alt="SAMSUNG GALAXY" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>SAMSUNG GALAXY A10S </h6>
+                                                    <p>6.2", 4G, 32GB + 2GB (DUAL SIM) - BLUE.</p>
+                                                    <span class="time">$180</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/shoes.jpeg" alt="Shoes" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Legend Lace-Up Sports Shoes</h6>
+                                                    <span class="time">$14.09</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__footer">
+                                                <a href="cart.html">View all products</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img src="images/people/Basil Malaki.png" alt="John Doe" />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">Basil</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="images/people/Basil Malaki.png" alt="Basil Malaki" />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">Basil Malaki</a>
+                                                    </h5>
+                                                    <span class="email">basilmalaki@example.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-account"></i>Account</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="#">
+                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <nav class="breadcrumb bg-transparent">
+                                    <a class="breadcrumb-item" href="/" aria-label="Home">
+                                        <i class="fa fa-home"></i>
+                                    </a>
+                                    <a class="breadcrumb-item" href="#">Customer Dashboard</a>
+                                </nav>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="overview-wrap">
+                                    <p>Welcome, Basil &nbsp;<i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-t-25">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c1">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="row">
+                                                <h2 class="tex-2 align-items-center mx-auto pl-5 text-light">
+                                                    0
+                                                </h2>
+                                                <div class="icon ml-auto">
+                                                    <img src="images/united-states.svg" alt="US" width="55" height="80">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <span>Recieved Packages -US</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c2">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="row">
+                                                <h2 class="tex-2 align-items-center mx-auto pl-5 text-light">
+                                                    0
+                                                </h2>
+                                                <div class="icon ml-auto">
+                                                    <img src="images/united-kingdom.svg" alt="US" width="55" height="80">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <span>Recieved Packages -UK</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c3">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="row">
+                                                <h2 class="tex-2 align-items-center mx-auto pl-5 text-light">
+                                                    0
+                                                </h2>
+                                                <div class="icon ml-auto">
+                                                    <img src="images/plane.svg" alt="US" width="55" height="80">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <span>My Shipments</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c4">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="row">
+                                                <h2 class="tex-2 align-items-center mx-auto pl-5 text-light">
+                                                    0
+                                                </h2>
+                                                <div class="icon ml-auto">
+                                                    <img src="images/box.svg" alt="US" width="55" height="80">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <span>My Orders</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 package-card"> 
+                                <!--Package List Table-->
+                                  <div class="table-responsive table--no-card m-b-30">
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">Package Photo</th>
+                                                <th class="text-center">Package ID</th>
+                                                <th class="text-center">Package Weight</th>
+                                                <th class="text-center">Package Dimensions</th>
+                                                <th class="text-center">Tracking #</th>
+                                                <th class="text-center">Manage</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody> 
+                                            <tr>
+                                                <td class="text-center">  <img class="popular-img" src="images/banners/car.png"> </td>
+                                                <th class="text-center card-title">ZFP001</th>
+                                                <td class="text-center">20Kgs</td>
+                                                <td class="text-center">15x10x15</td>
+                                                <th class="text-center card-title">1ZMSA354554954</th>
+                                                <td class="text-center text-success">
+                                                    <select class="select-package" >
+                                                        <option>Prepare To Ship</option>
+                                                        <option>Consolidate</option>
+                                                        <option>Repack</option>
+                                                        <option>Store</option>
+                                                    </select>
+                                                </td>
+                                            </tr> 
+                                            <tr>
+                                                <td class="text-center">  <img class="popular-img" src="images/banners/pot.png"> </td>
+                                                <th class="text-center card-title">ZFP001</th>
+                                                <td class="text-center">20Kgs</td>
+                                                <td class="text-center">15x10x15</td>
+                                                <th class="text-center card-title">1ZMSA354554954</th>
+                                                <td class="text-center text-success">
+                                                    <select class="select-package" >
+                                                        <option>Prepare To Ship</option>
+                                                        <option>Consolidate</option>
+                                                        <option>Repack</option>
+                                                        <option>Store</option>
+                                                    </select>
+                                                </td>
+                                            </tr> 
+                                            <tr>
+                                                <td class="text-center">  <img class="popular-img" src="images/banners/electronics.png"> </td>
+                                                <th class="text-center card-title">ZFP001</th>
+                                                <td class="text-center">20Kgs</td>
+                                                <td class="text-center">15x10x15</td>
+                                                <th class="text-center card-title">1ZMSA354554954</th>
+                                                <td class="text-center text-success">
+                                                    <select class="select-package" >
+                                                        <option>Prepare To Ship</option>
+                                                        <option>Consolidate</option>
+                                                        <option>Repack</option>
+                                                        <option>Store</option>
+                                                    </select>
+                                                </td>
+                                            </tr> 
+                                             
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <!--/.Package List Table-->
+                            </div>
+                        </div>
+                        <!-- ------------------------------------------------------------------------------------------>
+
+                        <h3 class="title-2 p-b-30">Popular Categories</h3>
+                        <div class="row  m-b-30">
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <div class="">
+                                    <div class="row ">
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/woman.png">
+                                            <p class="popular-title">Women Clothing</p>
+                                                
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/man.png">
+                                            <p class="popular-title">Men Clothing</p>
+                                                
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/toys.png">
+                                            <p class="popular-title">Toys</p>
+                                                
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/electronics.png">
+                                            <p class="popular-title">Electronics</p>
+                                                
+                                        </div>
+                                         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/cosmetics.png">
+                                            <p class="popular-title">Beauty</p>
+
+                                        </div>
+                                        
+                                    </div><br>
+
+                                    <div class="row ">
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/weightlift.png">
+                                            <p class="popular-title">Fitness</p>                                                
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/pot.png">
+                                            <p class="popular-title">Home & Garden</p>                                                
+                                        </div>
+                                         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/confetti.png">
+                                            <p class="popular-title">Party Supplies</p>   
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/mother.png">
+                                            <p class="popular-title">Baby & Mom</p>      
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/gift.png">
+                                            <p class="popular-title">Gifts</p>   
+                                        </div>
+                                    </div><br>
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/book.png">
+                                            <p class="popular-title">Books</p>   
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 popular-card">
+                                            <!-- popular-card-Item -->
+                                            <img class="popular-img" src="images/banners/car.png">
+                                            <p class="popular-title">Automotives</p>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="popular-card1 p-0 my-3 my-md-0 bg-transparent">
+                                    <img class="popular-card1-img rounded-10 w-100" src="images/banners/prime-banner.jpg">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <!--------------------------------------------------->
+
+
+
+                        <!-- fab chat -->
+                        <button class="btn pmd-btn-fab pmd-ripple-effect text-light pmd-btn-raised btn-chat" type="button" aria-label="chat with us"><i class="zmdi zmdi-comment-outline fs-23"></i></button>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>Copyright © 2020 Zigofly. All rights reserved. <a href="https://zigofly.com">Zigofly Kenya Ltd</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="vendor/slick/slick.min.js">
+    </script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script src="vendor/animsition/animsition.min.js"></script>
+    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    </script>
+    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendor/counter-up/jquery.counterup.min.js">
+    </script>
+    <script src="vendor/cir
+cle-progress/circle-progress.min.js"></script>
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="vendor/select2/select2.min.js">
+    </script>
+
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
+
+    <script type="text/javascript">
+        $('.product-group-links').click(function(e) {
+            window.location.href = 'products.html';
+        })
+    </script>
+
+</body>
+
+</html>
