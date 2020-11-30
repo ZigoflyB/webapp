@@ -1,59 +1,50 @@
 /** POPULAR PRODUCT CATEGORY/GROUP ON THE USER DASHBOARD **/
-body{
-  background-color: #fff;
-}
-.product-group-links {
-    border: solid 1px #e8e8e8;
-    border-radius: 9px;
-    background-color: red;
-}
 .popular-card {
-     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    padding-right: 35px;
+     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+    padding: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 25px;
     background: #fff;
-    margin-right: 15px;
     overflow: hidden;
     position:relative;
+    margin-left: 15px;
 
 }
 .popular-card1 {
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    padding-right: 35px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
     background: #fff;
     overflow: hidden;
 }
-.popular-card1-img{
-  display:inline-block;
-    position:absolute;
-    right:0;
-    top:0;
-}
+
 .popular-img{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .popular-title{
   display:block;
-  text-align: initial;
-  font-size: 12px;
+  text-align: center;
+  font-size: 10px;
   font-weight: bold;
 
 
 }
 
-@media (max-width: 991px) {
- 
+@media (min-width: 991px) {
+  .popular-card1-img{
+    min-height: 160px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1133px) {
@@ -90,8 +81,8 @@ body{
     max-width: 110px;
   }
    .popular-card1{
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 10px;
     max-width: 310px;
   }
@@ -104,8 +95,8 @@ body{
     max-width: 110px;
   }
   .popular-card1{
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
     max-width: 280px;
   }
@@ -113,175 +104,25 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.package-content{
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    padding-right: 5px;
+.package-card {
+     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+    padding: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 18px;
-    margin-right: 15px;
+    border-radius: 25px;
+    background: #fff;
     overflow: hidden;
     position:relative;
-}
-.package-card{
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    padding-right: 5px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 18px;
-    background: #54d2d2;
-    margin-right: 15px;
-    overflow: hidden;
-    position:relative;
-}
-
-.packsummary{
     margin-left: 15px;
-}
-.packimage{
-  display:inline-block;
-    position:absolute;
-    left:0;
-    top:0;
-}
-.packimage img{
-    margin-top: 5px !important;
-    background-color: #DCDCDC;
-    max-height: 60px;
-    border-radius: 9px;
+    margin:15px;
 
 }
-.packname{
-  display:inline-block;
-    position:absolute;
-  right:0;
-  top: 0;
-}
-.packname h6{
-  margin-top: 18px !important;
-}
-.packsummary .details{
-  font-size: 12px;
-}
-.info{
-  font-size: 13px;
-  font-weight: bold;
-}
-.packaddress{
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    padding-right:30px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 0px;
-    margin-left: 15px;
-    overflow: hidden;
-    position:relative;
-  background-color: #f0d738;
-  width: 75%;
-  text-align: center;
-}
-.packaddress p{
-  font-size: 13px;
-  font-style: italic;
-}
-.packaddress img{
-    max-height: 30px;
-    border-radius: 9px;
-
-}
-.btnlink{
-  top: 0;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.packplancard{
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    padding-right: 35px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 25px;
-    margin-right: 30px;
-    overflow: hidden;
-    position:relative;
-     font-size: 13px;
-}
-.standard{
-  background: #fff;
-  text-align: center;
-  font-size:13px;
-
-}
- .express{
-  background: #f0d738;
-  text-align: center;
-
-}
-.premium{
-  background: #fff;
-  text-align: center;
-
-}
-.packplan{
-
-}
-.packdetails{
-  background-color: #54d2d2;
-    border-radius: 25px;
-    margin-right: 30px;
-}
-.packdetailscard{
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    padding-right: 35px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 25px;
-    margin-top: 35px;
-    overflow: hidden;
-    position:relative;
-  background: #fff;
-  text-align: center;
-  font-size:13px;
-  }
-
-input[type=text]{
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    border: 2px solid;
-    border-radius: 25px;
-    max-width: 45%;
-}
-@media (max-width: 600px) {
-  .packimage img{
-    display: none;
-    margin-top: 5px !important;
-    background-color: #DCDCDC;
-    max-height: 60px;
-    border-radius: 9px;
-
-}
+.select-package{
+  padding: 10px; 
+  border:1px solid #d3d3d3;
+  border-radius: 3px;
+  background-color: #fff;
+  width: 100%;
 }
