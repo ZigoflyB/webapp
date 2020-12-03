@@ -329,18 +329,18 @@ section {
 
 .page-wrapper {
     overflow: hidden;
-    background: #e5e5e5;
+    background: #fafafa;
 }
 
 @media (max-width: 991px) {
     .page-wrapper {
         overflow: auto;
-        background: #e5e5e5;
+        background: #fafafa;
     }
 }
 
 .page-container {
-    background: #e5e5e5;
+    background: #fafafa;
     padding-left: 250px;
 }
 

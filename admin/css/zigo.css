@@ -64,3 +64,32 @@
     -webkit-transition:  box-shadow .1s ease-in;
     cursor: pointer;
 }
+
+.rounded-10{
+    border-radius: 8px;
+}
+
+.text-theme{
+    color: #070244;
+}
+
+.text-last{
+    color: #f4c58a;
+}
+
+.border-right-radius{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (min-width: 576px) { 
+    .border-md-right{
+        border-right: 1px solid #dee2e6;
+    }
+}
+
+@media (max-width: 576px) { 
+    .border-md-right{
+        border-bottom: 1px solid #dee2e6;
+    }
+}
